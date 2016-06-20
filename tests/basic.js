@@ -5,7 +5,7 @@ module.exports = {
     browser
       .url('http://statisfy.wedinweb.no')
       .waitForElementVisible('#username', 1000)
-      .setValue('input[type=text]', 'rj')
+      .setValue('input[type=text]', 'glennwedin')
       .click('button.button')
       .waitForElementVisible('.ReactListScroll', 1000)
       .pause(5000)
