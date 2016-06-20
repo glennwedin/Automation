@@ -1,0 +1,42 @@
+08:03:18.221 INFO - Launching a standalone Selenium Server
+Setting system property webdriver.chrome.driver to ./bin/chromedriver.exe
+08:03:18.298 INFO - Java: Oracle Corporation 25.91-b14
+08:03:18.298 INFO - OS: Windows 10 10.0 amd64
+08:03:18.307 INFO - v2.53.0, with Core v2.53.0. Built from revision 35ae25b
+08:03:18.364 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+08:03:18.364 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+08:03:18.372 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
+registration capabilities Capabilities [{browserName=safari, version=, platform=MAC}] does not match the current platform WIN10
+08:03:18.372 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
+08:03:18.372 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
+08:03:18.455 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+08:03:18.455 INFO - Selenium Server is up and running
+08:03:18.731 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Basic, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+08:03:18.740 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Basic, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.22.397933 (1cab651507b88dec79b2b2a22d1943c01833cc1b) on port 1898
+Only local connections are allowed.
+08:03:20.973 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Basic, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+08:03:20.989 INFO - Executing: [get: http://statisfy.wedinweb.no])
+08:03:21.750 INFO - Done: [get: http://statisfy.wedinweb.no]
+08:03:21.762 INFO - Executing: [find elements: By.cssSelector: #username])
+08:03:21.832 INFO - Done: [find elements: By.cssSelector: #username]
+08:03:21.840 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on XP (f6959d0ebb9b888016202eca313fdba8)] -> css selector: #username]])
+08:03:21.895 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on XP (f6959d0ebb9b888016202eca313fdba8)] -> css selector: #username]]
+08:03:21.902 INFO - Executing: [find element: By.cssSelector: input[type=text]])
+08:03:21.927 INFO - Done: [find element: By.cssSelector: input[type=text]]
+08:03:21.931 INFO - Executing: [send keys: 0 [[ChromeDriver: chrome on XP (f6959d0ebb9b888016202eca313fdba8)] -> css selector: #username], [r, j]])
+08:03:21.982 INFO - Done: [send keys: 0 [[ChromeDriver: chrome on XP (f6959d0ebb9b888016202eca313fdba8)] -> css selector: #username], [r, j]]
+08:03:21.985 INFO - Executing: [find element: By.cssSelector: button.button])
+08:03:22.009 INFO - Done: [find element: By.cssSelector: button.button]
+08:03:22.012 INFO - Executing: [click: 1 [[ChromeDriver: chrome on XP (f6959d0ebb9b888016202eca313fdba8)] -> css selector: button.button]])
+08:03:22.088 INFO - Done: [click: 1 [[ChromeDriver: chrome on XP (f6959d0ebb9b888016202eca313fdba8)] -> css selector: button.button]]
+08:03:22.098 INFO - Executing: [find elements: By.cssSelector: .ReactListScroll])
+08:03:22.119 INFO - Done: [find elements: By.cssSelector: .ReactListScroll]
+08:03:22.126 INFO - Executing: [is displayed: 2 [[ChromeDriver: chrome on XP (f6959d0ebb9b888016202eca313fdba8)] -> css selector: .ReactListScroll]])
+08:03:22.144 INFO - Done: [is displayed: 2 [[ChromeDriver: chrome on XP (f6959d0ebb9b888016202eca313fdba8)] -> css selector: .ReactListScroll]]
+08:03:27.155 INFO - Executing: [find element: By.cssSelector: .ReactListScroll .tr])
+08:03:27.170 INFO - Done: [find element: By.cssSelector: .ReactListScroll .tr]
+08:03:27.170 INFO - Executing: [get text: 5 [[ChromeDriver: chrome on XP (f6959d0ebb9b888016202eca313fdba8)] -> css selector: .ReactListScroll .tr]])
+08:03:27.207 INFO - Done: [get text: 5 [[ChromeDriver: chrome on XP (f6959d0ebb9b888016202eca313fdba8)] -> css selector: .ReactListScroll .tr]]
+08:03:27.240 INFO - Executing: [delete session: 538cb371-3e10-4540-a42b-4a4d94b13cb1])
+08:03:28.061 INFO - Done: [delete session: 538cb371-3e10-4540-a42b-4a4d94b13cb1]
